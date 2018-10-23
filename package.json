@@ -22,5 +22,8 @@
   "devDependencies": {
     "babel-register": "^6.26.0",
     "nodemon": "^1.18.4"
+  },
+  "engines": {
+    "node": "8.9.4"
   }
 }
