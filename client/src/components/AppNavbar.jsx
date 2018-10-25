@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {
     Collapse,
     Navbar,
@@ -8,7 +8,7 @@ import {
     NavItem,
     NavLink,
     Container
-} from 'reactstrap';
+} from "reactstrap";
 
 class AppNavbar extends Component {
     state = {
@@ -31,7 +31,7 @@ class AppNavbar extends Component {
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
-                                    <NavLink href="https://github.com/bradtraversy/mern_shopping_list">
+                                    <NavLink href="https://github.com/zaidongy/mern-stack">
                                         Github Repo
                                     </NavLink>
                                 </NavItem>
